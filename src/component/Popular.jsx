@@ -5,7 +5,7 @@ import Items from "./items";
 const Popular = () => {
   return (
     <div className="popular">
-      <h1>POPULAR IN MEN</h1>
+      <h1>ON DEMAND PRODUCTS</h1>
       <hr />
       <div className="popular-item">
         <Items />
