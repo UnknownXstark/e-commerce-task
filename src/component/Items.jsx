@@ -7,7 +7,6 @@ const Items = () => {
     <div className="item">
       <div className="item-image">
         <Link to='/product'><img src={"/men-shoe1.jpg"} alt="" /></Link>
-        {/* <img src={"/men-shoe1.jpg"} alt="" /> */}
       </div>
       <p>
         Men's Fashion Dress Mesh <br />

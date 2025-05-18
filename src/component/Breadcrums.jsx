@@ -1,11 +1,12 @@
 import React from 'react';
 import './Breadcrum.css';
 import { BsChevronBarRight } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const Breadcrums = () => {
   return (
     <div className='breadcrum'>
-      HOME <BsChevronBarRight /> SHOP <BsChevronBarRight /> MENS SHOES <BsChevronBarRight /> Fashion Sneakers
+      <Link to='/'>HOME</Link> <BsChevronBarRight /> <Link to='/mens-shoes'>MENS SHOES</Link> <BsChevronBarRight /> Fashion Sneakers
     </div>
   );
 };
